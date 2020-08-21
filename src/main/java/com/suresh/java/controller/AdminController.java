@@ -10,4 +10,9 @@ public class AdminController {
 	public String getAdminDetails() {
 		return "Admin Details from DB";
 	}
+	
+	@GetMapping("/admin/user")
+	public String getUserDetails() {
+		return "User Details from DB";
+	}
 }
